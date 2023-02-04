@@ -51,3 +51,46 @@
   width: 85%;
   justify-content: space-between;
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .product {
+    margin-bottom: 40px;
+  }
+  .title {
+    text-align: left;
+    width: 100%;
+    margin-left: 32px;
+  }
+
+  .description {
+    text-align: left;
+    padding: 0 16px;
+  }
+  .info,.product{
+    width: 95%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .btn {
+    display: block;
+    padding: 0 12px;
+  }
+  .img {
+    justify-content: unset;
+  }
+
+  .title {
+    text-align: left;
+    width: 100%;
+    margin-left: 32px;
+  }
+
+  .description {
+    text-align: left;
+    padding: 0 16px;
+  }
+}
